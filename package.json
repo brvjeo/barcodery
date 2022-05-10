@@ -1,0 +1,20 @@
+{
+  "name": "barcoder",
+  "version": "1.0.0",
+  "description": "Barcode generator",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "barcode",
+    "qrcode",
+    "encoder"
+  ],
+  "author": "Preobrazhenskii A.",
+  "license": "ISC"
+}
