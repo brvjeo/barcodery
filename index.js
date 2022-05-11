@@ -9,3 +9,4 @@ const qrcode = new QR("Это универсальный способ кодир
 
 
 qrcode.create();
+
