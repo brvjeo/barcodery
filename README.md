@@ -15,4 +15,4 @@ const qrcode = new QR('#canvas-id',{
 })
 ```
 ## Other
-Barcodery has its [windows desktop app] (https://github.com/Preobars77/QRCodeGenerator)based on C#.
+Barcodery has its [windows desktop app](https://github.com/Preobars77/QRCodeGenerator) based on C#.
