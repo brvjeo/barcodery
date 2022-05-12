@@ -1,14 +1,20 @@
 {
-  "name": "barcoder",
-  "version": "1.0.0",
+  "name": "barcodery",
+  "version": "1.0.1",
   "description": "Barcode generator",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Preobars77/barcodery"
+  },
   "directories": {
     "lib": "lib"
   },
   "exports":{
-    "bundle/":"./index.js"
+    ".":"./index.js",
+    "./qrcode":"./lib/qrcode/qrcode.js",
+    "./barcode":"./lib/barcode/barcode.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
