@@ -11,8 +11,13 @@ import QR from 'barcodery/qrcode';
 
 const qrcode = new QR('#canvas-id',{
     text: "Some text",
-    color: '#020202'
-})
+    level:2
+});
+qrcode.draw({
+    borderType:"square",
+    icon: "none",
+    color: "red"
+});
 ```
 ## Other
 Barcodery has its [windows desktop app](https://github.com/Preobars77/QRCodeGenerator) based on C#.
