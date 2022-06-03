@@ -14,9 +14,9 @@ const qrcode = new QR('#canvas-id',{
     level:2
 });
 qrcode.draw({
-    borderType:"square",
-    icon: "none",
-    color: "red"
+    borderType:"circle",
+    color: "red",
+    width:500
 });
 ```
 ## Other
