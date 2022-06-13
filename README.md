@@ -1,4 +1,4 @@
-# Barcodery
+![welcome.png](github-welcome.png)
 Barcodery is a JavaScript library for generating barcodes.
 ## Install
 ```
