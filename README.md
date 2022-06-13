@@ -16,8 +16,6 @@ qrcode.generate("Some text.");
 
 ```
 ## Options
-### text
-Sets encoded text.
 ### color
 Sets barcode color. By default `"black"`.
 ### borderType
