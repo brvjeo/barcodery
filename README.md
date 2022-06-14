@@ -21,7 +21,7 @@ Sets barcode color. By default `"black"`.
 ### borderType
 Sets type of pixel corners. If `"circle"`, all code modules will be rounded. By default `"square"`.
 ### level
-Sets correction level. Only `2` level is available now.
+Sets correction level.
 
 
 ## Other
